@@ -1,0 +1,34 @@
+{
+  "name": "hitbox2d",
+  "version": "0.1.0",
+  "description": "A TypeScript library for 2D hitbox with collision checks.",
+  "keywords": [
+    "2d",
+    "game",
+    "collision"
+  ],
+  "main": "dist/hitbox2d.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/yahiko00/Hitbox2D.git"
+  },
+  "scripts": {
+    "build": "tsc -d && uglifyjs dist/hitbox2d.js -mc --output dist/hitbox2d.min.js --source-map dist/hitbox2d.min.js.map"
+  },
+  "author": "Yahiko <yahiko.ninja@gmail.com>",
+  "maintainers": [
+    "Yahiko"
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/yahiko00/Hitbox2D/raw/master/LICENSE.txt"
+    }
+  ],
+  "dependencies": {
+    "geometry2d": "^0.1.5"
+  },
+  "devDependencies": {
+    "uglify-js": "^2.4.13"
+  }
+}
