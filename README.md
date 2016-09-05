@@ -1,4 +1,4 @@
-# Motion2D #
+# Hitbox2D #
 
 A TypeScript library for 2D hitbox with collision checks.
 
